@@ -1,0 +1,12 @@
+@import '../styles/header.scss';
+@import '../styles/mainItems.scss';
+@import url('https://fonts.google.com/specimen/Raleway');
+
+*{
+    font-family: "Raleway", Helvetica, Arial;
+    //  font-size: 20px;
+    color: hsl(243, 87%, 12%);
+}
+.container{
+    padding: 3rem 6rem;
+}
