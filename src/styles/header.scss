@@ -1,0 +1,10 @@
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  .nav__links ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    font-weight: 100;
+    opacity: .8;
+  }
+}
