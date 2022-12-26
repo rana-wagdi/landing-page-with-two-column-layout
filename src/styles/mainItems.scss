@@ -1,31 +1,34 @@
-.main_content{
-    display: flex;
-    // align-items: center;
-    // justify-content: center;
-    h1{
-           font-size: 2.2rem;
-           line-height: 3rem;
-           margin-top: 4.5rem;
-    }
-    p{
-        line-height: 1.5rem;
-        font-size: 18px;
-    }
-    input{
-        padding: .5rem;
-        margin: .5rem;
-        width: 40%;
-    }
-    button{
-        padding: .5rem 3.5rem;
-        background-color: hsl(224, 93%, 58%);
-        border-color: hsl(224, 93%, 58%);
-        border-radius: 3px;
-        color: hsl(240, 75%, 98%);
-        cursor: pointer;
-    }
-    button:hover{
-        background-color: hsl(224, 93%, 70%);
-        border-color: hsl(224, 93%, 70%);
-    }
+.main_content {
+  display: flex;
+  h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-top: 4.5rem;
+  }
+  p {
+    line-height: 1.5rem;
+    font-size: 18px;
+  }
+  input {
+    padding: 0.7rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    width: 40%;
+    border: 1px solid $border-color;
+  }
+  button {
+    padding: 0.7rem 3.5rem;
+    background-color: $blue;
+    border: none;
+    border-radius: 3px;
+    color: hsl(240, 75%, 98%);
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: hsl(224, 93%, 70%);
+    border-color: hsl(224, 93%, 70%);
+  }
+  .error_email {
+    color: red;
+    font-size: 0.7rem;
+  }
 }
