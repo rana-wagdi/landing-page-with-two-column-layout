@@ -1,7 +1,7 @@
 <template>
     <div class="container header__items">
-        <div>
-            <img src="../assets/logo.svg" />
+        <div class="logo_header">
+            <img class="logo" src="../assets/logo.svg" />
             
         </div>
         <div class="nav__links">
