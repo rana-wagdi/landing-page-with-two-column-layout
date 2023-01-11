@@ -1,14 +1,26 @@
 .main_content {
   display: flex;
+  @media(max-width:800px){
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
   h1 {
     font-size: 2.8rem;
     line-height: 3.7rem;
     margin-top: 4.5rem !important;
+    @media(max-width:800px){
+      text-align: center;
+      font-size: 2.5rem;
+    }
   }
   .main_content_items {
     line-height: 1.9rem;
     font-size: 20px;
     margin-top: 1rem;
+    @media(max-width:800px){
+      text-align: center;
+
+    }
   }
   .main_img{
     width: 100%;
@@ -16,9 +28,23 @@
   }
   .email {
     @include input;
+    @media(max-width:800px){
+      display: block;
+      margin: 2rem auto 1rem !important;
+      width: 80%;
+    }
+  
   }
   button {
   @include button;
+  @media(max-width:800px){
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+  }
   }
 
   .error_email {
