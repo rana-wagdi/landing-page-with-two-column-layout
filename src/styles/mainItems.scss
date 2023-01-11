@@ -55,3 +55,13 @@
     border-color: #fa4d41;
   }
 }
+@media (max-width:800px) {
+  .main_content{
+    .error_email {
+      justify-content: center;
+      display: flex;
+      margin-top: -3.4rem;
+    }
+  }
+
+}
