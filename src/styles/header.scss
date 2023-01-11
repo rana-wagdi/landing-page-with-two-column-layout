@@ -4,15 +4,21 @@
   .nav__links ul{
     width: max-content;
     }
+    .logo{
+        width: 120px;  
+        @media (max-width: 400px) {
+          width: 100px;  
+        }
+    }
   .nav__links ul li {
     display: inline-block;
-    margin: 1rem;
+    margin: .8rem !important;
     font-weight: 100;
     opacity: .8;
     cursor: pointer;
     @media(max-width: 800px){
       margin: .3rem;
-      font-size: .9rem;
+  
     }
     &:hover{
       color: $blue;
