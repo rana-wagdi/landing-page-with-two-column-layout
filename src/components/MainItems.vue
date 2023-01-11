@@ -18,12 +18,12 @@
           :class="{error: validEmail == 'invalid'}"
           class="email"
         />
-        <!-- <br /> -->
-        <!-- <span v-if="validEmail === 'invalid'" class="error_email">
-          Please check your email
-        </span> -->
-        <button>Get Started</button>
+    
         
+        <button>Get Started</button>
+        <p v-if="validEmail === 'invalid'" class="error_email">
+          Please check your email
+         </p> 
       </form>
     </div>
     <div>

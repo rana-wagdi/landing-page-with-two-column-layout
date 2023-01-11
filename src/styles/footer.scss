@@ -35,14 +35,12 @@
     font-size: 1.5rem;
     border-radius: 50%;
     margin-top: 2rem;
-    // background-color: aqua;
   }
   .content_footer{
         margin-right: 10rem;
         @media(max-width: 1200px){
             margin-right: 0;
           }
-        // -top: 4rem;
     }
 }
 @media (max-width:800px){
